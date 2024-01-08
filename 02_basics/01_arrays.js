@@ -28,6 +28,11 @@ const myArr2 = new Array(1, 2, 3, 4)
 
 // slice, splice
 
+// There are two differences between slice and splice.
+// 1. In slice, the original array is not manipulated 
+//      BUT in splice, spliced elements are removed from the original array.
+// 2. In slice, the last indexed element is excluded BUT in splice it is included.
+
 console.log("A ", myArr);
 
 const myn1 = myArr.slice(1, 3)
@@ -35,7 +40,8 @@ const myn1 = myArr.slice(1, 3)
 console.log(myn1);
 console.log("B ", myArr);
 
+console.log("--------------------------------------------")
 
 const myn2 = myArr.splice(1, 3)
-console.log("C ", myArr);
 console.log(myn2);
+console.log("C ", myArr);
