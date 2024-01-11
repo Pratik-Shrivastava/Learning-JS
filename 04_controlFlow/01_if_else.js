@@ -11,6 +11,8 @@ const temperature = 41
 // console.log("Execute");
 // <, >, <=, >=, ==, !=, ===, !==
 
+// === is used for strict checking. i.e. it also checks the type of the variables.
+
 // const score = 200
 
 // if (score > 100) {
