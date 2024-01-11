@@ -8,6 +8,8 @@
 // }
 
 
+/// The only difference between switch case in Java and Javascript is that we can use string value also
+/// as cases.
 
 const month = "march"
 
