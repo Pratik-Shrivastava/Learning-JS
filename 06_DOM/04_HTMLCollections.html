@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning about HTML collections</title>
+    <style>
+        *{
+            font-size: 2.6remp;
+        }
+    </style>
+</head>
+<body>
+    <h1>This is a tutorial to understand HTML collections.</h1>
+    <h2 class="heading">const myH2 = document.getElementsByClassName('heading')</h2>
+    <!-- The output of getElementByClass is HTML collections -->
+    <!-- HTML collections is different from arrays. -->
+    <!-- Array.from(myH2) -->
+    <!-- Now it is converted into array -->
+    <h2 class="heading">HTMLCollection []</h2>
+    <h2 class="heading">let myH2 = document.querySelectorAll('h2')</h2>
+    <h2 class="heading">const convertedArray = Array.from(myH2)</h2>
+    <h2 class="heading">convertedArray.forEach((element)=>{
+        element.style.color = "Blue"
+    })</h2>
+    
+</body>
+</html>
