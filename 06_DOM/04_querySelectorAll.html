@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning About DOM</title>
+    <style>
+        body{
+            font-size: 2.5rem;
+        }
+    </style>
+
+</head>
+<body>
+    <h1>This is tutorial about querySelectorAll</h1>
+    <ol>
+        <li>myLi = document.querySelectorAll('li')</li>
+
+        <!-- The output of the querySelectorAll is a NodeList -->
+        <!-- NodeList and array are different, we cannot use map in NodeList. -->
+        <!-- Otherwise we nened to convert it into array. -->
+        <!-- Use for...each whenever you need to traverse a NodeList -->
+        <li>NodeList(4) [li, li, li, li]</li>
+        <li>myLi[0].style.color = "Red"</li>
+        <li>myLi.forEach((l)=>{
+            l.style.color = "Red"
+        }) </li>
+    </ol>
+    
+</body>
+</html>
