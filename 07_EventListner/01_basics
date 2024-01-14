@@ -36,13 +36,16 @@
 
     // document.getElementById('images').addEventListener('click', function(e){
     //     console.log("clicked inside the ul");
-    // }, false)
+    // }, false)                                        //<<--- This is event propogation
+
+    // In case of bubbling mode when the event is going from bottom then use false.
+    // In case of capturing mode when the event is going from top to bottom then use true;
 
     // Thid ^ parameter is by default false, it is important.
 
     // document.getElementById('owl').addEventListener('click', function(e){
     //     console.log("owl clicked");
-    //     e.stopPropagation()
+    //     e.stopPropagation()          
     // }, false)
     
     // document.getElementById('google').addEventListener('click',function(e){
