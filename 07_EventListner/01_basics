@@ -45,7 +45,7 @@
 
     // document.getElementById('owl').addEventListener('click', function(e){
     //     console.log("owl clicked");
-    //     e.stopPropagation()          
+    //     e.stopPropagation()          //<<-- This is how to stop further bubbling.         
     // }, false)
     
     // document.getElementById('google').addEventListener('click',function(e){
