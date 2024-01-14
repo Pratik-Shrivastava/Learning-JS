@@ -28,7 +28,7 @@
      // attachEvent() -->> This was used in early time during internet explorer times.
     // jQuery - on
 
-    
+    // We have to study these things in order to master the javascript.
     // type, timestamp, defaultPrevented
     // target, toElement, srcElement, currentTarget,
     // clientX, clientY, screenX, screenY
