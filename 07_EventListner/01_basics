@@ -49,7 +49,7 @@
     // }, false)
     
     // document.getElementById('google').addEventListener('click',function(e){
-    //     e.preventDefault();
+    //     e.preventDefault();                  //<-- This is to prevent something from happing.
     //     e.stopPropagation()
     //     console.log("google clicked");
     // }, false)
