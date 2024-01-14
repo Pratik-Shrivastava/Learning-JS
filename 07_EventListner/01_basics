@@ -57,6 +57,8 @@
     
     document.querySelector('#images').addEventListener('click', function(e){
         console.log(e.target.tagName);
+
+        // If we dont access event by tagName then whole ul can be removed.
         if (e.target.tagName === 'IMG') {
             console.log(e.target.id);
             let removeIt = e.target.parentNode
